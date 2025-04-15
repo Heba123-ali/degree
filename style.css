@@ -11,7 +11,7 @@ body{
 }
 .box{
     width: 90%;
-    height: 100vh;
+    height: 100%;
     max-width: 1200px;
     margin: auto;
     padding: 20px;
@@ -53,3 +53,56 @@ input[type="submit"]{
     font-size: 1rem;
     cursor: pointer;
 }
+input[type="submit"]:hover {
+    background: #063a5d;
+}
+
+#reset {
+    width: 80%;
+    padding: 10px;
+    border: none;
+    border-radius: 10px;
+    color: #fff;
+    font-size: 1rem;
+    cursor: pointer;
+    background: #e74c3c;
+}
+
+#reset:hover {
+    background: #c0392b;
+}
+
+
+#out-put p {
+    font-weight: bold;
+    padding: 8px 12px;
+    margin: 6px 0;
+    border-radius: 8px;
+    transition: 0.3s;
+    font-size: 18px;
+  }
+
+  .excellent {
+    background-color: #d4edda;
+    color: #155724;
+  }
+
+  .vgood {
+    background-color: #d1ecf1;
+    color: #0c5460;
+  }
+
+  .good {
+    background-color: #fff3cd;
+    color: #856404;
+  }
+
+  .pass {
+    background-color: #f8d7da;
+    color: #721c24;
+  }
+
+  .fail {
+    background-color: #f5c6cb;
+    color: #721c24;
+  }
